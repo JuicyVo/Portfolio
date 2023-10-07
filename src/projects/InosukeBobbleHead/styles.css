@@ -1,0 +1,34 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80vw;
+  width: 90vw;
+}
+
+#inosuke {
+  display: flex;
+  position: relative; /* Add position relative to inosuke */
+}
+
+#body {
+  top: 0; /* Add top position for the body */
+}
+
+#headPiece {
+  position: absolute;
+  top: 240px; /* Adjust the top position for the head */
+  left: 180px;
+  transform: translate(-50%, -50%);
+}
+
+.head {
+  width: 250px;
+  height: 250px;
+  transition: transform 0.3s ease scaleX(1);
+}
+
+#headPiece.flipped .head {
+  transform:  scaleX(-1);
+}

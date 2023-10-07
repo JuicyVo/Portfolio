@@ -17,23 +17,23 @@ const ProjectGrid = ({ projects }) => {
 const Projects = () => {
   const projectData = [
     {
-      title: 'Project 1',
-      description: 'Description of Project 1',
+      title: 'GPTinder',
+      description: 'A dating app that uses chatgpt to create bots themed around characters alongside a working match making system',
       link: 'https://example.com/project1',
     },
     {
-      title: 'Project 2',
-      description: 'Description of Project 2',
+      title: 'Evento',
+      description: 'A Meetup app where one can join events and host events',
       link: 'https://example.com/project2',
     },
     {
-      title: 'Project 3',
-      description: 'Description of Project 3',
+      title: 'Scheduler',
+      description: 'Book appointments and edit them with teachers',
       link: 'https://example.com/project3',
     },
     {
-      title: 'Project 4',
-      description: 'Description of Project 4',
+      title: 'Tweeter',
+      description: 'Twitter clone using AJAX',
       link: 'https://example.com/project4',
     },
   ];
